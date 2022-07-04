@@ -11,6 +11,7 @@ contract MyNFT is ERC721 {
     uint256 public token_count;
 
     constructor() ERC721("My NFT", "MNFT") {}
+// MIURL Url del github amb tots els jpg copilados
 
     function _baseURI() internal view virtual override returns (string memory) {
         return "MIURL";
